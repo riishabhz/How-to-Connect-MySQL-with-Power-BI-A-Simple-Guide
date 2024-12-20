@@ -35,6 +35,15 @@ You’ll see a list of tables from your database.
 Select the tables you need or write a custom SQL query for specific data.
 Click Load to bring the data into Power BI or Transform Data to prepare it before loading.
 
+you can also try Custom Query like below: 
+SELECT Code, GNP FROM world.country
+order by GNP desc
+
+![mysql snapshot](https://github.com/user-attachments/assets/7eefcab6-6da2-41eb-9b08-63c3d1035404)
+
+
+![ETL](https://github.com/user-attachments/assets/2ee1eb0a-16f7-4cbc-a0a7-72a0ef99e6ad)
+
 📊 Step 4: Start Building Dashboards
 ✨ You’re all set! Use Power BI to create stunning dashboards, visualize trends, and extract actionable insights from your MySQL data.
 
