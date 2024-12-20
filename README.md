@@ -13,6 +13,7 @@ Open Power BI Desktop.
 Go to Home Tab → Get Data → MySQL Database → Connect.
 In the connection dialog:
 Enter localhost (for a local server) or the name of your MySQL server in the Server field.
+
 Enter the Database Name ( I have selected World as my database)
 Click OK to connect.
 ![mysql snapshot](https://github.com/user-attachments/assets/111af539-bc61-4f36-8328-113e75917cfd)
