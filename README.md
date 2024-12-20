@@ -21,6 +21,14 @@ Click OK to connect.
 
 💡 If you encounter errors, double-check your MySQL server name, username, password, and port settings.
 
+💡 You may see the following error in your query editor window:
+
+"DataSource.Error: Object reference not set to an instance of an object."
+
+You are most likely getting a "user not authorized error". To resolve this issue, go to File | Options and Settings | Data source settings and edit your data source and set the credentials to "Database credentials", not Windows credentials.
+
+https://learn.microsoft.com/en-us/archive/technet-wiki/32004.power-bi-tips-for-working-with-mysql
+
 📥 Step 3: Load and Explore Your Data
 Once connected:
 You’ll see a list of tables from your database.
